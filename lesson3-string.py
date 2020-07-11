@@ -14,6 +14,10 @@ address = "Hanoi"
 phoneNumber = "0368782814"
 result = f"This is my name: {name}"
 info = f"Name: {name}\nAddress: {phoneNumber}\nPhone: {phoneNumber}"
+
+# format method
+r = "Name: {}, Address: {}".format("Khanh", "Hanoi")
 print(f)
 print(result)
 print(info)
+print(r)
