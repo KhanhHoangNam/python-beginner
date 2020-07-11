@@ -48,3 +48,14 @@ print(j)
 print(k)
 print(l)
 print(z)
+
+#String -Lesson5
+color = "green,red,purple,gold"
+colorList = color.split(",", 1)
+partitionColorList = color.partition(",")
+print(colorList)
+print(partitionColorList)
+print(color.startswith("green"))
+print(color.endswith("HiHi"))
+print(color.find("e"))
+print(color.rfind("e"))
