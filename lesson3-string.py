@@ -21,3 +21,18 @@ print(f)
 print(result)
 print(info)
 print(r)
+
+#String-Lesson 4
+a = "hoang Nam khanh"
+b = a.capitalize()
+c = a.upper()
+d = a.swapcase()
+e = a.title()
+f = a.center(30)
+# print(int(a))
+print(type(a))
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
