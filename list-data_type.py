@@ -17,3 +17,8 @@ print(multipleList)
 print(aStringList)
 print(aSubList in aList)
 print(aList[3][0])
+
+#Ma trận
+aMatrix = [[1,2,3],[4,5,6]]
+print(aMatrix[0])
+print(aMatrix[1])
