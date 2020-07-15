@@ -22,3 +22,24 @@ print(aList[3][0])
 aMatrix = [[1,2,3],[4,5,6]]
 print(aMatrix[0])
 print(aMatrix[1])
+
+#List continue
+a = [1,2,3,9,87,4,5,6]
+#count(arg) Trả về số lần xuất hiện của phần tử trong list
+print(a.count(1))
+
+
+#index(arg) Trả về vị trí xuất hiện đầu tiên của phần tử trong list 
+# => throw exception nếu trong list không xuất hiện phần tử
+print(a.index(9))
+
+#copy() Trả về một bản sao của list
+b = a.copy()
+b[1] = "khanhhn"
+print(a)
+print(b)
+
+#clear() Xoá mọi phần tử trong list
+a.clear()
+print(a)
+
