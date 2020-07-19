@@ -38,6 +38,7 @@ b = a.copy()
 b[1] = "khanhhn"
 print(a)
 print(b)
+print(b[-1])
 
 #clear() Xoá mọi phần tử trong list
 a.clear()

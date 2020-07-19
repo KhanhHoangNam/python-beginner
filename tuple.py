@@ -13,6 +13,9 @@ print(tup)
 print(aTuple)
 print(tuple(anotherTuple))
 print(aTuple + anotherTuple)
+print(len(anotherTuple))
+print(anotherTuple[::-1])
+print(anotherTuple[:-1])
 
 # a functions example
 def quicksort(arr):
