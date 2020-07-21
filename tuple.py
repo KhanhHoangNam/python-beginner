@@ -31,5 +31,5 @@ print(quicksort([3,6,8,0,11,100,1]))
 
 # hashtable and unhashtable
 # hash objects: string, tuple
-# unhash objects: list
+# unhash objects: list112
 print()
