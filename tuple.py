@@ -28,3 +28,8 @@ def quicksort(arr):
     return quicksort(left) + middle + quicksort(right)
 
 print(quicksort([3,6,8,0,11,100,1]))
+
+# hashtable and unhashtable
+# hash objects: string, tuple
+# unhash objects: list
+print()
