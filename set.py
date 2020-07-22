@@ -29,3 +29,9 @@ print(1 in {1, 3, 2})
 # print({1, 3, 2, 4} | {2, 1, 3})
 print({1, 3, 2, 4} ^ {2, 1, 3})
 # print({1, 3, 2, 4} != {2, 1})
+
+# remove & discard
+print(set_4.discard(9))
+print(set_4)
+print(set_4.add(10))
+print(set_4.copy())
