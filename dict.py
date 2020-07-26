@@ -12,3 +12,9 @@ class Map_Class:
 map_obj = Map_Class()
 dic = dict(map_obj)
 print(dic)
+
+# Sử dụng iterable
+iter_ = [('name', 'Kteam'), ('member', '69')]
+dic_ = dict(iter_)
+print(dic_)
+print(type(dic_))
